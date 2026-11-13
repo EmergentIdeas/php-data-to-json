@@ -1,6 +1,6 @@
 {
   "name": "@dankolz/php-data-to-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "php-to-json.mjs",
   "bin": {

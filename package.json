@@ -4,8 +4,8 @@
   "description": "",
   "main": "php-to-json.mjs",
   "bin": {
-    "php-to-json": "./php-to-json-command.mjs"
-    , "json-to-php": "./json-to-php-command.mjs"
+    "php-data-to-json": "./php-to-json-command.mjs"
+    , "json-to-php-data": "./json-to-php-command.mjs"
   },
   
   "scripts": {

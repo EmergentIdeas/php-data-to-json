@@ -1,13 +1,12 @@
 {
   "name": "@dankolz/php-data-to-json",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "php-to-json.mjs",
   "bin": {
-    "php-data-to-json": "./php-to-json-command.mjs"
-    , "json-to-php-data": "./json-to-php-command.mjs"
+    "php-data-to-json": "php-to-json-command.mjs",
+    "json-to-php-data": "json-to-php-command.mjs"
   },
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +16,9 @@
   "type": "module",
   "dependencies": {
     "console-in-transformer": "^1.0.5"
-  }
+  },
+  "files": [
+    "*.mjs",
+    "README.md"
+  ]
 }

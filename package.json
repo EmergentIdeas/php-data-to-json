@@ -1,0 +1,21 @@
+{
+  "name": "@dankolz/php-data-to-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "php-to-json.mjs",
+  "bin": {
+    "php-to-json": "./php-to-json-command.mjs"
+    , "json-to-php": "./json-to-php-command.mjs"
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "console-in-transformer": "^1.0.5"
+  }
+}
